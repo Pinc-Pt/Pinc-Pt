@@ -64,7 +64,7 @@
   <text x="768.0" y="155.0" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="44" fill="#8fe3a0" class="tile" style="animation-delay:.9s">·</text>
   <clipPath id="tc"><rect x="0" y="270" height="60" width="1200" class="type"/></clipPath>
   <g clip-path="url(#tc)">
-    <text x="600.0" y="305" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="24" fill="#d8f7df" filter="url(#glow)">fictkin · amateur chemist · professional menace</text>
+    <text x="600.0" y="305" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="24" fill="#d8f7df" filter="url(#glow)">fictkin · starter chemist · professional menace</text>
   </g>
   <text x="600.0" y="352" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14" fill="#8fe3a0" fill-opacity=".7" letter-spacing="4">EST. IN A RENTED RV · PURITY 99.1%</text>
 </svg>
