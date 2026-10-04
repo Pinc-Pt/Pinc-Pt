@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06120b"/><stop offset="1" stop-color="#103322"/>
+    </linearGradient>
+    <linearGradient id="tileg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7d45"/><stop offset="1" stop-color="#0f3d1f"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8fe3a0" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <style>
+    .smoke { animation: rise linear infinite; }
+    @keyframes rise { 0% { transform: translateY(0); opacity:0 } 20% { opacity:.18 } 100% { transform: translateY(-520px); opacity:0 } }
+    .tile { opacity:0; animation: drop .7s ease-out forwards; }
+    @keyframes drop { from { opacity:0; transform: translateY(-30px) } to { opacity:1 } }
+    .spark { animation: twinkle 3s ease-in-out infinite; opacity:.2 }
+    @keyframes twinkle { 0%,100% { opacity:.15 } 50% { opacity:.9 } }
+    .type { transform: scaleX(0); transform-origin: 0 0; animation: type 3.2s steps(60) 1.4s forwards; }
+    @keyframes type { to { transform: scaleX(1) } }
+    .caret { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity:0 } }
+  </style>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <circle cx="120" cy="440" r="60" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:0s;animation-duration:9s"/><circle cx="300" cy="440" r="80" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:2s;animation-duration:11s"/><circle cx="520" cy="440" r="50" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:4s;animation-duration:8s"/><circle cx="700" cy="440" r="90" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:1s;animation-duration:12s"/><circle cx="900" cy="440" r="60" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:3s;animation-duration:10s"/><circle cx="1080" cy="440" r="75" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:5s;animation-duration:9s"/><circle cx="1000" cy="440" r="45" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:6s;animation-duration:7s"/><circle cx="200" cy="440" r="50" fill="#9fdcb0" opacity="0" filter="url(#blur)" class="smoke" style="animation-delay:7s;animation-duration:10s"/>
+  <polygon points="118,51 121.6,57 118,63 114.4,57" fill="#5fd3ff" class="spark" style="animation-delay:1.46s"/><polygon points="138,271 142.8,279 138,287 133.2,279" fill="#5fd3ff" class="spark" style="animation-delay:0.15s"/><polygon points="163,137 166.6,143 163,149 159.4,143" fill="#5fd3ff" class="spark" style="animation-delay:2.20s"/><polygon points="141,303 144.6,309 141,315 137.4,309" fill="#5fd3ff" class="spark" style="animation-delay:3.79s"/><polygon points="146,304 152.6,315 146,326 139.4,315" fill="#5fd3ff" class="spark" style="animation-delay:0.20s"/><polygon points="472,36 476.2,43 472,50 467.8,43" fill="#5fd3ff" class="spark" style="animation-delay:1.16s"/><polygon points="219,294 222.6,300 219,306 215.4,300" fill="#5fd3ff" class="spark" style="animation-delay:2.26s"/><polygon points="1108,228 1114.0,238 1108,248 1102.0,238" fill="#5fd3ff" class="spark" style="animation-delay:1.86s"/>
+
+  <g transform="translate(247.0,70)" class="tile" style="animation-delay:0.15s">
+    <rect width="150" height="150" rx="10" fill="url(#tileg)" stroke="#8fe3a0" stroke-width="2.5"/>
+    <rect x="6" y="6" width="138" height="138" rx="6" fill="none" stroke="#8fe3a0" stroke-opacity=".25"/>
+    <text x="14" y="30" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="20" fill="#c9f5d3">15</text>
+    <text x="136" y="30" text-anchor="end" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14" fill="#c9f5d3" fill-opacity=".7">30.974</text>
+    <text x="75.0" y="102" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="69" fill="#ffffff">P</text>
+    <text x="75.0" y="136" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="13" fill="#c9f5d3" letter-spacing="1">PHOSPHORUS</text>
+  </g>
+  <g transform="translate(415.0,70)" class="tile" style="animation-delay:0.4s">
+    <rect width="150" height="150" rx="10" fill="url(#tileg)" stroke="#8fe3a0" stroke-width="2.5"/>
+    <rect x="6" y="6" width="138" height="138" rx="6" fill="none" stroke="#8fe3a0" stroke-opacity=".25"/>
+    <text x="14" y="30" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="20" fill="#c9f5d3">49</text>
+    <text x="136" y="30" text-anchor="end" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14" fill="#c9f5d3" fill-opacity=".7">114.82</text>
+    <text x="75.0" y="102" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="69" fill="#ffffff">In</text>
+    <text x="75.0" y="136" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="13" fill="#c9f5d3" letter-spacing="1">INDIUM</text>
+  </g>
+  <g transform="translate(583.0,70)" class="tile" style="animation-delay:0.65s">
+    <rect width="150" height="150" rx="10" fill="url(#tileg)" stroke="#8fe3a0" stroke-width="2.5"/>
+    <rect x="6" y="6" width="138" height="138" rx="6" fill="none" stroke="#8fe3a0" stroke-opacity=".25"/>
+    <text x="14" y="30" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="20" fill="#c9f5d3">6</text>
+    <text x="136" y="30" text-anchor="end" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14" fill="#c9f5d3" fill-opacity=".7">12.011</text>
+    <text x="75.0" y="102" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="69" fill="#ffffff">C</text>
+    <text x="75.0" y="136" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="13" fill="#c9f5d3" letter-spacing="1">CARBON</text>
+  </g>
+  <g transform="translate(803.0,70)" class="tile" style="animation-delay:0.9s">
+    <rect width="150" height="150" rx="10" fill="url(#tileg)" stroke="#8fe3a0" stroke-width="2.5"/>
+    <rect x="6" y="6" width="138" height="138" rx="6" fill="none" stroke="#8fe3a0" stroke-opacity=".25"/>
+    <text x="14" y="30" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="20" fill="#c9f5d3">78</text>
+    <text x="136" y="30" text-anchor="end" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14" fill="#c9f5d3" fill-opacity=".7">195.08</text>
+    <text x="75.0" y="102" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="69" fill="#ffffff">Pt</text>
+    <text x="75.0" y="136" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="13" fill="#c9f5d3" letter-spacing="1">PLATINUM</text>
+  </g>
+  <text x="768.0" y="155.0" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="44" fill="#8fe3a0" class="tile" style="animation-delay:.9s">·</text>
+  <clipPath id="tc"><rect x="0" y="270" height="60" width="1200" class="type"/></clipPath>
+  <g clip-path="url(#tc)">
+    <text x="600.0" y="305" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="24" fill="#d8f7df" filter="url(#glow)">fictkin · amateur chemist · professional menace</text>
+  </g>
+  <text x="600.0" y="352" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14" fill="#8fe3a0" fill-opacity=".7" letter-spacing="4">EST. IN A RENTED RV · PURITY 99.1%</text>
+</svg>
