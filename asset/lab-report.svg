@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1a12"/><stop offset="1" stop-color="#132a1d"/></linearGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#2fb3e6"/><stop offset="1" stop-color="#7fe0ff"/></linearGradient>
+  </defs>
+  <style>
+    .row { opacity:0; animation: f .5s ease-out forwards } @keyframes f { to { opacity:1 } }
+    .fill { animation: g 2.4s ease-out 1.2s forwards; transform: scaleX(0); transform-origin: left }
+    @keyframes g { to { transform: scaleX(.991) } }
+    .stamp { opacity:0; animation: st .35s ease-out 2.8s forwards; transform-origin: 1010px 200px }
+    @keyframes st { from { opacity:0; transform: scale(1.6) rotate(-14deg) } to { opacity:.9; transform: scale(1) rotate(-14deg) } }
+    .bob { animation: b 4s ease-in-out infinite } @keyframes b { 50% { transform: translateY(-6px) } }
+  </style>
+  <rect x="1" y="1" width="1198" height="468" rx="16" fill="url(#bg)" stroke="#2f7d45" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="54" rx="16" fill="#1a4a2b"/>
+  <rect x="1" y="40" width="1198" height="16" fill="#1a4a2b"/>
+  <circle cx="34" cy="28" r="7" fill="#e5534b"/><circle cx="58" cy="28" r="7" fill="#e3b341"/><circle cx="82" cy="28" r="7" fill="#3fb950"/>
+  <text x="600.0" y="34" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#c9f5d3" letter-spacing="3">LAB_REPORT_#0099.txt</text>
+  <g class="row" style="animation-delay:0.30s">
+    <text x="60" y="110" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">SUBJECT</text>
+    <text x="370" y="110" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#e8f5ea">Pinc-Pt</text>
+    <line x1="60" y1="124" x2="870" y2="124" stroke="#8fe3a0" stroke-opacity=".08"/></g><g class="row" style="animation-delay:0.48s">
+    <text x="60" y="150" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">ALIAS</text>
+    <text x="370" y="150" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#e8f5ea">PιɳC  (formerly: Homesteader Rick)</text>
+    <line x1="60" y1="164" x2="870" y2="164" stroke="#8fe3a0" stroke-opacity=".08"/></g><g class="row" style="animation-delay:0.66s">
+    <text x="60" y="190" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">CLASSIFICATION</text>
+    <text x="370" y="190" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#e8f5ea">fictkin · Walter White</text>
+    <line x1="60" y1="204" x2="870" y2="204" stroke="#8fe3a0" stroke-opacity=".08"/></g><g class="row" style="animation-delay:0.84s">
+    <text x="60" y="230" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">OCCUPATION</text>
+    <text x="370" y="230" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#e8f5ea">chemistry teacher turned something else</text>
+    <line x1="60" y1="244" x2="870" y2="244" stroke="#8fe3a0" stroke-opacity=".08"/></g><g class="row" style="animation-delay:1.02s">
+    <text x="60" y="270" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">CURRENTLY COOKING</text>
+    <text x="370" y="270" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#e8f5ea">this profile (with help, coding is hard)</text>
+    <line x1="60" y1="284" x2="870" y2="284" stroke="#8fe3a0" stroke-opacity=".08"/></g><g class="row" style="animation-delay:1.20s">
+    <text x="60" y="310" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">TIME ZONE</text>
+    <text x="370" y="310" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#e8f5ea">UTC+03:00 — not Albuquerque, sadly</text>
+    <line x1="60" y1="324" x2="870" y2="324" stroke="#8fe3a0" stroke-opacity=".08"/></g><g class="row" style="animation-delay:1.38s">
+    <text x="60" y="350" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">STATUS</text>
+    <text x="370" y="350" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#e8f5ea">in the empire business</text>
+    <line x1="60" y1="364" x2="870" y2="364" stroke="#8fe3a0" stroke-opacity=".08"/></g>
+  <text x="60" y="412" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="15" fill="#6b8f76" letter-spacing="2">PURITY</text>
+  <rect x="370" y="396" width="500" height="22" rx="11" fill="#0a2a36" stroke="#2fb3e6" stroke-opacity=".5"/>
+  <rect x="370" y="396" width="500" height="22" rx="11" fill="url(#bar)" class="fill"/>
+  <text x="890" y="414" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" font-weight="700" fill="#7fe0ff">99.1%</text>
+  <g class="stamp">
+    <rect x="930" y="165" width="160" height="70" rx="6" fill="none" stroke="#e5534b" stroke-width="4"/>
+    <text x="1010" y="196" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="800" font-size="22" fill="#e5534b">CLASSIFIED</text>
+    <text x="1010" y="222" text-anchor="middle" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="12" fill="#e5534b">DO NOT COPY THE ART</text>
+  </g>
+  <g class="bob" transform="translate(0,0)">
+    <g transform="translate(1010,330)">
+      <path d="M-22 -60 h44 v8 h-6 v30 l34 62 a10 10 0 0 1 -9 15 h-82 a10 10 0 0 1 -9 -15 l34 -62 v-30 h-6z" fill="none" stroke="#8fe3a0" stroke-width="3"/>
+      <path d="M-30 20 h60 l14 25 a6 6 0 0 1 -5 9 h-78 a6 6 0 0 1 -5 -9z" fill="#2fb3e6" fill-opacity=".75"/>
+      <circle cx="-8" cy="34" r="3" fill="#bdf0ff"/><circle cx="10" cy="28" r="2" fill="#bdf0ff"/><circle cx="2" cy="42" r="2.5" fill="#bdf0ff"/>
+    </g>
+  </g>
+</svg>
