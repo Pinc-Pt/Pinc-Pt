@@ -8,7 +8,6 @@
   <img src="https://komarev.com/ghpvc/?username=Pinc-Pt&label=visitors%20to%20the%20lab&color=2f7d45&style=for-the-badge" alt="visitors">
 </p>
 <img src="assets/sec-about.svg" alt="About the Subject" width="100%">
-> *I used to grow crops. Now I grow an empire.*
 Hi, I'm PιɳC. I'm a Walter White/Jesse Pinkman fictkin and so much more: a quiet chemistry student on the outside, something much more dangerous and much more quiet on the inside. I left the town. College can wait, and these days so can the studies. The cook comes first.
 🧪 Fully committed to the high-school-chemistry-teacher aesthetic
 🚐 Lab: a rented RV parked somewhere in the desert
