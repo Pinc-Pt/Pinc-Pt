@@ -4,10 +4,6 @@
   <img src="assets/glitch.svg" alt="VHS footage of an RV in the desert" width="100%">
 </p>
 
-#### Who added me to the encyclopedia?
-
-<img src="assets/wiki-card.svg" alt="Encyclopedia entry about Pinc-Pt" width="560">
-
 <p align="center">
   <a href="https://pinc-kin.atabook.org"><img src="https://img.shields.io/badge/guestbook-atabook-2f7d45?style=for-the-badge&labelColor=13171c" alt="atabook"></a>
   <a href="https://pinc.straw.page"><img src="https://img.shields.io/badge/site-straw.page-3aa8e0?style=for-the-badge&labelColor=13171c" alt="straw.page"></a>
