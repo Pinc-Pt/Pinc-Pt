@@ -1,11 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90">
-  <defs><linearGradient id="tileg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d45"/><stop offset="1" stop-color="#0f3d1f"/></linearGradient>
-  <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#8fe3a0"/><stop offset="1" stop-color="#8fe3a0" stop-opacity="0"/></linearGradient></defs>
-  <style>.l { stroke-dasharray: 900; stroke-dashoffset: 900; animation: d 1.6s ease-out forwards } @keyframes d { to { stroke-dashoffset: 0 } }</style>
-  <rect x="4" y="9" width="72" height="72" rx="8" fill="url(#tileg)" stroke="#8fe3a0" stroke-width="2"/>
-  <text x="12" y="27" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="11" fill="#c9f5d3">02</text>
-  <text x="40" y="62" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="32" fill="#fff">Lb</text>
-  <text x="98" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="30" fill="#2f9e55">Lab Report</text>
-  <text x="98" y="70" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14" fill="#6b8f76">// current batch, findings, and purity</text>
-  <line x1="98" y1="82" x2="1190" y2="82" stroke="url(#line)" stroke-width="2" class="l"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110">
+<defs>
+<linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a4e38"/><stop offset="1" stop-color="#3e281e"/></linearGradient>
+<linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="380" y1="0" x2="1190" y2="0"><stop offset="0" stop-color="#ff9a3c"/><stop offset=".5" stop-color="#8f6bd8"/><stop offset="1" stop-color="#8f6bd8" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+.sw{transform-origin:190.0px 0;animation:sw 4s ease-in-out infinite}@keyframes sw{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
+.l{stroke-dasharray:800;stroke-dashoffset:800;animation:d 1.8s ease-out .3s forwards}@keyframes d{to{stroke-dashoffset:0}}
+.s{opacity:0;animation:f 1s ease-out 1s forwards}@keyframes f{to{opacity:1}}
+</style>
+<g class="sw">
+<path d="M70 0L70 34M310 0L310 34" stroke="#b08a5a" stroke-width="3" stroke-dasharray="5 3"/>
+<rect x="30" y="30" width="320" height="66" rx="9" fill="url(#wood)" stroke="#24160f" stroke-width="2"/>
+<path d="M44 48q106.66666666666667 -6 192.0 2M50 80q160.0 6 270 -3" stroke="#24160f" stroke-opacity=".45" stroke-width="2" fill="none"/>
+<circle cx="70" cy="38" r="3" fill="#cfb38a"/><circle cx="310" cy="38" r="3" fill="#cfb38a"/>
+<text x="190.0" y="74" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" font-weight="700" fill="#1a0f0a" opacity=".6" transform="translate(1.5 2)"><tspan fill="#ff6b57">♦</tspan> The Wager</text>
+<text x="190.0" y="74" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" font-weight="700" fill="#f3ead2"><tspan fill="#ff6b57">♦</tspan> The Wager</text>
+</g>
+<text x="380" y="58" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="17" fill="#9a8bd0" class="s">read the terms, then sign by candlelight</text>
+<path d="M380 76H1190" stroke="url(#ln)" stroke-width="2" class="l"/>
 </svg>
