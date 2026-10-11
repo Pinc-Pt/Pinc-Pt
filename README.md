@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/fictkin-Aspen%20Moor-ff9a3c?style=for-the-badge&labelColor=14112a" alt="fictkin">
   <img src="https://img.shields.io/badge/season-spooky%20month-8f6bd8?style=for-the-badge&labelColor=14112a" alt="season">
   <img src="https://img.shields.io/badge/the%20house-always%20wins-cfe0f2?style=for-the-badge&labelColor=14112a" alt="the house always wins">
-  <img src="https://komarev.com/ghpvc/?username=Pinc-Pt&label=lost%20visitors&color=ff9a3c&style=for-the-badge" alt="visitors">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Pinc-Pt.Pinc-Pt&left_text=lost%20visitors&left_color=%2314112a&right_color=%23ff9a3c" alt="visitors">
 </p>
 
 <img src="asset/sec-about.svg" alt="The Host" width="100%">
